@@ -1,0 +1,16 @@
+functional dependencies in various relations:
+
+patient:
+patient_id -> patient_name,age,gender,admitted_date
+
+hospital:
+hospital_id -> hospital_name,location
+
+doctor:
+doctor_id -> doctor_name,specialization
+
+department:
+id->name
+
+employee:
+id->name,salary,
